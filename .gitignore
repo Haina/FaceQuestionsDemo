@@ -16,10 +16,14 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
+*.xcworkspace
+!default.xcworkspace
+*.xccheckout
 
 ## Other
 *.moved-aside
 *.xcuserstate
+*.DS_Store
 
 ## Obj-C/Swift specific
 *.hmap
@@ -34,6 +38,9 @@ xcuserdata/
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
 # Pods/
+Pods/
+Pods/*
+Podfile.lock
 
 # Carthage
 #
